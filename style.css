@@ -1,6 +1,6 @@
 @media (max-width: 519px){
     body{
-        grid-template-rows: 6% 90% 4%;
+        grid-template-rows: 4% 96%;
     }
     main{
         grid-template-columns: 1fr;
@@ -23,7 +23,7 @@
 }
 @media (max-width: 780px) and (min-width: 520px){
     body{
-        grid-template-rows: 6% 90% 4%;
+        grid-template-rows: 4% 96%;
     }
     main{
         grid-template-columns: 1fr;
@@ -46,7 +46,7 @@
 }
 @media (min-width: 781px){
     body{
-        grid-template-rows: 10% 80% 10%;
+        grid-template-rows: 8% 92%;
     }
     main{
         grid-template-columns: 1fr 2fr;
