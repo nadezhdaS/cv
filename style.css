@@ -12,7 +12,7 @@
         margin: 50px auto;
     }
     .point:after{
-        height: 770px;
+        height: 970px;
     }
     .pointLast:after{
         height: 190px;
@@ -35,7 +35,7 @@
         margin: 50px auto;
     }
     .point:after{
-        height: 490px;
+        height: 690px;
     }
     .pointLast:after{
         height: 190px;
@@ -57,10 +57,10 @@
         margin: 50px 30px;
       }
       .point:after{
-        height: 320px;
+        height: 520px;
     }
     .pointLast:after{
-        height: 190px;
+        height: 220px;
     }
     #mySkills{
         grid-template: repeat(5, 1fr) / repeat(2, 1fr);
@@ -154,7 +154,7 @@ td:first-child{
 }
 #aboutWork{
     display: grid;
-    grid-template: 1fr 1fr 0.5fr/2fr 1fr 6fr;
+    grid-template: 1fr 0.9fr 0.5fr/2fr 1fr 6fr;
     grid-row-gap: 10px;
 }
 #aboutEducation{
