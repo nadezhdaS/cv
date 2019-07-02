@@ -1,7 +1,4 @@
 @media (max-width: 519px){
-    body{
-        grid-template-rows: 4% 96%;
-    }
     main{
         grid-template-columns: 1fr;
     }
@@ -12,7 +9,7 @@
         margin: 50px auto;
     }
     .point:after{
-        height: 970px;
+        height: 1470px;
     }
     .pointLast:after{
         height: 190px;
@@ -22,20 +19,20 @@
     }
 }
 @media (max-width: 780px) and (min-width: 520px){
-    body{
-        grid-template-rows: 4% 96%;
-    }
     main{
         grid-template-columns: 1fr;
     }
     header{
         padding: 0 20px 100px 20px;
     }
+    header p{
+        margin-bottom: 10px;
+    }
     table{
         margin: 50px auto;
     }
     .point:after{
-        height: 690px;
+        height: 890px;
     }
     .pointLast:after{
         height: 190px;
@@ -44,23 +41,41 @@
         grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     }
 }
-@media (min-width: 781px){
-    body{
-        grid-template-rows: 8% 92%;
-    }
+
+@media (min-width: 1201px){
     main{
         grid-template-columns: 1fr 2fr;
-        margin:0 10%;
-    
+        margin:0 7%;
+    }
+    header p{
+        margin-bottom: 40px;
     }
     table {
         margin: 50px 30px;
       }
       .point:after{
-        height: 520px;
+        height: 730px;
     }
     .pointLast:after{
         height: 220px;
+    }
+    #mySkills{
+        grid-template: repeat(5, 1fr) / repeat(2, 1fr);
+    }
+}
+@media (min-width: 781px) and (max-width: 1200px){
+    main{
+        grid-template-columns: 1fr 2fr;
+        margin:0 7%;
+    }
+    header p{
+        margin-bottom: 40px;
+    }
+    table {
+        margin: 50px 30px;
+      }
+      .point:after{
+        height: 990px;
     }
     #mySkills{
         grid-template: repeat(5, 1fr) / repeat(2, 1fr);
@@ -70,9 +85,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    display: grid;
 }
 main{
     display: grid;
@@ -154,7 +166,7 @@ td:first-child{
 }
 #aboutWork{
     display: grid;
-    grid-template: 1fr 0.9fr 0.5fr/2fr 1fr 6fr;
+    grid-template: 1fr 0.7fr 0.4fr/2fr 1fr 6fr;
     grid-row-gap: 10px;
 }
 #aboutEducation{
@@ -220,8 +232,9 @@ td:first-child{
 #mySkills{
     display: grid;
     grid-row-gap: 30px;
+    font-size: 1.1em;
 }
-#mySkills p:after{
+/*#mySkills p:after{
     content: '';
     display: block;
     width: 150px;
@@ -260,4 +273,4 @@ td:first-child{
 .apiSkill:after{
     border-right:solid 70px #c1c1c1;
 }
-
+*/
